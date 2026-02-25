@@ -31,17 +31,17 @@ public class Employee {
     }
 }
 
-// Manager class inherits from Employee
+
 class Manager extends Employee {
     String department;
 
-    // Manager constructor calls Employee constructor using super()
+    
     Manager(int empId, String name, double salary, String department) {
         super(empId, name, salary);
         this.department = department;
     }
 
-    // Override display method to add department info
+    
     @Override
     void display() {
         super.display();
