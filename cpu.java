@@ -1,6 +1,6 @@
 
 import java.io.IOException;
-
+                                    //innerclass pgm 5
 public class cpu {
     float price;
     

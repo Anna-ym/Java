@@ -1,5 +1,5 @@
 public class Employee {
-    int empId;
+    int empId;                              //single inheritance
     String name;
     double salary;
 
