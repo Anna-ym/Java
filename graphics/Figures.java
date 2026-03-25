@@ -2,12 +2,12 @@ package graphics;
 
 public class Figures {
 
-    // Interface
+    
     public interface Figure {
         double area();
     }
 
-    // Rectangle class
+    
     public static class Rectangle implements Figure {
         private double length, breadth;
 
@@ -21,7 +21,7 @@ public class Figures {
         }
     }
 
-    // Triangle class
+    
     public static class Triangle implements Figure {
         private double base, height;
 
@@ -35,7 +35,7 @@ public class Figures {
         }
     }
 
-    // Square class
+    
     public static class Square implements Figure {
         private double side;
 
@@ -48,7 +48,7 @@ public class Figures {
         }
     }
 
-    // Circle class
+    
     public static class Circle implements Figure {
         private double radius;
 
