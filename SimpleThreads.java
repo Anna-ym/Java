@@ -9,7 +9,7 @@ class Table5 extends Thread {
 }
 
 
-class Primes extends Thread {
+class Primes extends Thread{
     int n;
     Primes(int n) { 
         this.n = n;
